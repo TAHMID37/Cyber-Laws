@@ -1,0 +1,27 @@
+{
+  "Bangladesh": [
+    "Information and Communication Technology (ICT) Act, 2006: Addresses cybercrime and electronic transactions, providing a legal framework for digital signatures and electronic records.",
+    "Cybersecurity Act, 2023: Replaces the Digital Security Act, 2018, strengthening measures against cybercrime and enhancing digital security",
+    "National ICT Policy: Outlines strategies for ICT development and cybersecurity, aiming to promote safe and effective use of technology."
+  ],
+  "India": [
+    "Information Technology Act, 2000: Primary law addressing cybercrime and electronic commerce, including provisions for data protection and digital signatures.",
+    "Personal Data Protection Bill: Proposed comprehensive framework for personal data protection, aiming to regulate the processing of personal data.",
+    "National Cyber Security Policy: Provides guidelines for protecting cyber infrastructure and outlines strategies to prevent and respond to cyber threats."
+  ],
+  "China": [
+    "Cybersecurity Law of the People's Republic of China: Regulates data localization and critical information infrastructure, requiring network operators to store select data within China and allowing authorities to conduct spot-checks on network operations.",
+    "Data Security Law: Establishes security standards for data handling and processing, emphasizing data sovereignty and national security.",
+    "Personal Information Protection Law (PIPL): Provides comprehensive data privacy protection, outlining requirements for the collection, use, and storage of personal information."
+  ],
+  "Europe": [
+    "General Data Protection Regulation (GDPR): Protects personal data and privacy of individuals within the EU, setting strict guidelines for data processing and transfer.",
+    "Directive on Security of Network and Information Systems (NIS Directive): Strengthens cybersecurity across the EU by requiring member states to ensure a high level of security for network and information systems.",
+    "ePrivacy Directive: Addresses electronic communications privacy, focusing on the confidentiality of communications and the regulation of cookies and similar technologies."
+  ],
+  "USA": [
+    "Computer Fraud and Abuse Act (CFAA): Prohibits accessing a computer without authorization or exceeding authorized access, serving as a primary tool against hacking.",
+    "Electronic Communications Privacy Act (ECPA): Protects against unauthorized interception of electronic communications, including email and telephone conversations.",
+    "Children's Online Privacy Protection Act (COPPA): Regulates the collection of personal information from children under 13, requiring parental consent for data collection."
+  ]
+}
