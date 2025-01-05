@@ -1,0 +1,91 @@
+.laws-section {
+    background-color: var(--card-background);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.country-selector {
+    margin: 2rem 0;
+}
+
+#countrySelect {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.8rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 0 auto;
+    display: block;
+}
+
+.laws-display {
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    min-height: 200px;
+}
+
+.select-prompt {
+    text-align: center;
+    color: #666;
+}
+
+.law-item {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.add-country-section {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid #eee;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.submit-button {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color var(--transition-speed);
+}
+
+.submit-button:hover {
+    background-color: #2980b9;
+}
+
+@media (max-width: 768px) {
+    .laws-section {
+        padding: 1rem;
+    }
+
+    .laws-display {
+        padding: 1rem;
+    }
+}

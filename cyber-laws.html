@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Laws - Browse Countries</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/cyber-laws.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Cyber Laws</div>
+        <button class="nav-toggle">
+            <span class="hamburger"></span>
+        </button>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cyber-laws.html" class="active">Cyber Law</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section class="laws-section">
+            <h1>Browse Cyber Laws by Country</h1>
+            
+            <div class="country-selector">
+                <select id="countrySelect">
+                    <option value="">Select a country...</option>
+                </select>
+            </div>
+
+            <div id="lawsDisplay" class="laws-display">
+                <p class="select-prompt">Please select a country to view its cyber laws.</p>
+            </div>
+
+            <div class="add-country-section">
+                <h2>Add New Country Data</h2>
+                <form id="addCountryForm">
+                    <div class="form-group">
+                        <label for="newCountry">Country Name:</label>
+                        <input type="text" id="newCountry" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="newLaws">Laws (one per line):</label>
+                        <textarea id="newLaws" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Add Country</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cyber Laws Across Countries. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="mailto:contact@cyberlaws.com">Contact</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </footer>
+
+    <script src="js/nav.js"></script>
+    <script type="module" src="js/cyber-laws.js"></script>
+</body>
+</html>
